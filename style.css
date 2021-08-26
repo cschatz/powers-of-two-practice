@@ -1,0 +1,55 @@
+body {
+	background-color:  #333;
+}
+
+#app {
+	width:  400px;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color:  white;
+	padding:  20px;
+}
+
+#main {
+	width:  250px;
+	margin-left:  auto;
+	margin-right: auto;
+	margin-top:  30px;
+	margin-bottom:  20px;
+	font-size:  2em;
+}
+
+.rhs {
+	font-weight:  bold;
+}
+
+input#userAnswer {
+	width:  5em;
+	font-size: 1em;
+	font-family: inherit;
+}
+
+#again {
+	margin-top:  20px;
+}
+
+#msg {
+	text-align:  center;
+	font-size:  1.5em;
+}
+
+
+#err, #result  {
+	text-align: center;
+	padding:  20px;
+}
+
+#result {
+	font-size:  1.5em;
+}
+
+#err {
+	color:  #c00;
+	font-size:  2em;
+}
